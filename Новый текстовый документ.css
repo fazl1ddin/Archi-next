@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-image: url("img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.window {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+.navbar .nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 49px;
+}
+.navbar .nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+.navbar .nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+.headerText h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    width: 500px;
+    font-weight: 100;
+    color: white;
+    padding-top: 160px;
+    text-transform: uppercase;
+    letter-spacing: -2.5px;
+    padding-bottom: 350px;
+}
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 660px;
+}
+.headerContent .headerContentBox {
+    width: 31%;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+}
+.headerContent .headerContentBox img {
+    padding-top: 60px;
+    height: 99px;
+}
+.headerContent .headerContentBox h1 {
+    font-size: 30px;
+    padding-top: 40px;
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+}
+.headerContent .headerContentBox p {
+    color: #878787;
+    font-size: 18px;
+    width: 310px;
+    display: block;
+    margin: 0 auto;
+    line-height: 160%
+}
+.headerContent .headerContentBox a {
+    font-size: 18px;
+    color: #878787;
+    text-decoration: none;
+    display: block;
+    width: 170px;
+    height: 50px;
+    margin: 60px auto 50px;
+    border: 2px #878787 solid;
+    border-radius: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    transition: all 0.4s cubic-bezier(0.34, 0.49, 1, 1);
+}
+.headerContent .headerContentBox a:hover {
+    background-color: #0162a7;
+    color: white;
+    border: #0162a7 2px solid;
+    box-shadow: #0162a7 0 0 25px 1px;
+}
+.mainHelloContent {
+    display: flex;
+    justify-content: space-between;
+}
+.mainHelloContent .mainHelloText {
+    text-align: left;
+    padding-top: 490px;
+}
+.mainHelloContent .mainHelloText h1 {
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    color: #0169b4;
+    letter-spacing: 4px;
+    padding-top: 40px;
+}
+.mainHelloContent .mainHelloText p {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    width: 520px;
+    line-height: 180%;
+    color: #8f8f8f;
+    padding-top: 20px;
+}
+.mainHelloContent .mainHelloText a {
+    font-size: 18px;
+    color: #878787;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 170px;
+    height: 50px;
+    margin: 40px 0 50px;
+    border: 2px #878787 solid;
+    border-radius: 50px;
+    line-height: 50px;
+    font-family: "raleway", sans-serif;
+    box-sizing: border-box;
+    transition: all 0.4s cubic-bezier(0.34, 0.49, 1, 1);
+}
+.mainHelloContent .mainHelloText a:hover {
+    background-color: #0162a7;
+    color: white;
+    border: #0162a7 2px solid;
+    box-shadow: #0162a7 0 0 25px 1px;
+}
+.mainHelloContent .mainHelloContentPic {
+    padding-top: 490px;
+    width: 570px;
+    height: 435px;
+}
+.ourProjectsTitle {
+    padding-top: 170px;
+    padding-bottom: 80px;
+}
+.ourProjectsTitle h1 {
+    color: #0169b4;
+    font-size: 50px;
+    font-family: "raleway", sans-serif;
+    font-weight: 300;
+}
+.sliderWrapper {
+    max-width: 1880px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.sliderWrapper .ourProjectsSlide {
+    display: flex;
+    justify-content: center;
+}
+.sliderWrapper .ourProjectsSlide .ourProjectsSlider {
+    margin: 0 5px;
+}
+.mainSolutionsTitle {
+    padding-top: 180px;
+    padding-bottom: 70px;
+}
+.mainSolutionsTitle h1 {
+    color: #0169b4;
+    font-size: 50px;
+    font-family: "raleway", sans-serif;
+    font-weight: 300;
+}
+.mainSolutionsContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mainSolutionsContent .mainSolutionsContentBox {
+    width: 470px;
+    height: 140px;
+    padding-bottom: 70px;
+    font-family: "raleway", sans-serif;
+}
+.mainSolutionsContent .mainSolutionsContentBox.two {
+    padding-bottom: 170px;
+}
+.mainSolutionsContent .mainSolutionsContentBox h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.mainSolutionsContent .mainSolutionsContentBox p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 160%;
+}
+.mainSayContent {
+    display: flex;
+    justify-content: space-between;
+}
+.mainSayContent .mainSayText {
+    font-family: "raleway", sans-serif;
+    width: 570px;
+}
+.mainSayContent .mainSayText h1 {
+    color: #0169b4;
+    font-size: 50px;
+    font-weight: 300;
+    padding-top: 90px;
+}
+.mainSayContent .mainSayText  h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: #878787;
+    height: 25px;
+    display: block;
+    line-height: 70px;
+    padding-top: 100px;
+}
+.mainSayContent .mainSayText  p {
+    color: #878787;
+    line-height: 170%;
+    letter-spacing: 1px;
+    padding-left: 45px;
+    padding-bottom: 50px;
+}
+.mainSayContent .mainSayText span {
+    padding-left: 45px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.mainSayContent .mainSayText a {
+    font-size: 18px;
+    color: #878787;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 170px;
+    height: 50px;
+    border: 2px #878787 solid;
+    border-radius: 50px;
+    margin: 75px 0 90px auto;
+    line-height: 50px;
+    box-sizing: border-box;
+    transition: all 0.4s cubic-bezier(0.34, 0.49, 1, 1);
+}
+.mainSayContent .mainSayText a:hover {
+    background-color: #0162a7;
+    color: white;
+    border: #0162a7 2px solid;
+    box-shadow: #0162a7 0 0 25px 1px;
+}
+.mainSayContent .mainSayContentPic img {
+    height: 100%;
+    width: 100%;
+}
+.maiNewsTitle h1 {
+    font-family: "raleway", sans-serif;
+    color: #0169b4;
+    font-size: 50px;
+    font-weight: 300;
+    padding-top: 170px;
+    padding-bottom: 75px;
+}
+.maiNewsContent {
+    display: flex;
+    justify-content: space-between;
+}
+.maiNewsContent .maiNewsContentBox {
+    font-family: "raleway", sans-serif;
+    width: 31%;
+}
+.maiNewsContent .maiNewsContentBox .anyClass {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.maiNewsContent .maiNewsContentBox .anyClass h1 {
+    text-align: center;
+    font-size: 34px;
+    color: #878787;
+}
+.maiNewsContent .maiNewsContentBox .anyClass h2 {
+    margin-left: 30px;
+    font-size: 24px;
+    line-height: 170%;
+}
+.maiNewsContent .maiNewsContentBox  p {
+    color: #878787;
+    line-height: 180%;
+}
+.maiNewsContent .maiNewsContentBox a {
+    font-size: 18px;
+    color: #878787;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 170px;
+    height: 50px;
+    border: 2px #878787 solid;
+    border-radius: 50px;
+    margin: 70px 0 170px 0;
+    line-height: 50px;
+    box-sizing: border-box;
+    transition: all 0.4s cubic-bezier(0.34, 0.49, 1, 1);
+}
+.maiNewsContent .maiNewsContentBox a:hover {
+    background-color: #0162a7;
+    color: white;
+    border: #0162a7 2px solid;
+    box-shadow: #0162a7 0 0 25px 1px;
+}
+.footer {
+    background-image: url("img/maska.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footerInfo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 115px;
+    padding-bottom: 140px;
+}
+.footerInfo .footerInfoBox {
+    text-align: center;
+    color: white;
+    font-family: "montserrat", sans-serif;
+}
+.footerInfo .footerInfoBox p {
+    padding-top: 30px;
+    font-size: 14px;
+}
+.footerSocials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 110px;
+}
+.footerSocials a {
+    display: flex;
+    align-items: center;
+}
+.footerSocials img {
+    padding-right: 60px;
+}
+.window .toUp img {
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    margin-left: -75.5px;
+}
